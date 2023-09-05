@@ -17,101 +17,235 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <div class="header_wrap">
-            <h1><a href="#"><img src="./images/png/logo.png" alt="daangn"></a></h1>
-            <div class="h_right">
-                <form action="#" method="get" id="searchFrm">
-                    <fieldset>
-                        <legend class="skip">검색양식</legend>
-                        <input type="text" id="searchTxt" placeholder="물품이나 동네를 검색해보세요">
-                    </fieldset>
-                </form>
-                <nav>
-                    <a href="#">중고거래</a>
-                    <a href="#">동네가게</a>
-                    <a href="#">알바</a>
-                    <a href="#">부동산 직거래</a>
-                    <a href="#">중고차 직거래</a>
-                </nav>
+    <div class="responsive">
+        <div class="contents">
+            <header>
+                <div class="header_wrap">
+                    <h1><a href="#"><img src="./images/png/logo.png" alt="daangn"></a></h1>
+                    <div class="h_right">
+                        <form action="#" method="get" id="searchFrm">
+                            <fieldset>
+                                <legend class="skip">검색양식</legend>
+                                <input type="text" id="searchTxt" placeholder="물품이나 동네를 검색해보세요">
+                            </fieldset>
+                        </form>
+                        <nav>
+                            <ul>
+                                <li><a href="#">중고거래</a></li>
+                                <li><a href="#">동네가게</a></li>
+                                <li><a href="#">알바</a></li>
+                                <li><a href="#">부동산 직거래</a></li>
+                                <li><a href="#">중고차 직거래</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div id="daangn_content" class="daangn_container">
+                <section class="visual">
+                    <div class="inner">
+                        <div class="top">
+                            <h2><img src="./images/main_001.png" alt=""></h2>
+                            <img src="./images/main_star.png" alt="">
+                        </div>
+                        <p class="title">동네라서 가능한 모든 것<br>당근에서 가까운 이웃과 함께해보세요.</p>
+                        <p class="contents">지금 당근 앱을 업데이트하고 새로워진 당근을 만나보세요</p>
+                        <div class="app">
+                            <a href="#"><i class="fa-brands fa-google-play"></i>Google Play</a>
+                            <a href="#"><i class="fa-brands fa-app-store-ios"></i>App Store</a>
+                        </div>
+                        <div class="right">
+                            <img src="./images/main_banner_01.png" alt="">
+                            <img src="./images/daangn_001.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="slide">
+                    <div id="bg_slide" class="show01">
+                        <div class="slider_pagination">
+                            <span class="bar active"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="items item01">
+                            <div class="txtarea">
+                                <span class="txt">중고거래</span>
+                                <p class="head">믿을만한<br>이웃 간 중고거래</p>
+                                <p class="sub">동네 주민들과 가깝고 따뜻한 거래를<br>지금 경험해 보세요.</p>
+                                <div class="view">
+                                    <a href="#"><span>인기매물보기</span></a>
+                                    <a href="#"><span>믿을 수 있는 중고거래</span></a>
+                                </div>
+                            </div>
+                            <div class="anim_cont">
+                                <div class="play">
+                                    <span class="img_daangn"></span>
+                                </div>
+                            </div>
+                            <div class="imgarea">
+                                <img src="./images/banner_001.png" alt="">
+                                <img src="./images/banner_002.jpg" alt="">
+                                <!-- <img src="./images/left_img_001.png" alt=""> -->
+                                <img src="./images/png/left_011.jpg" alt="">
+                                <img src="./images/png/icon_33.png" alt="">
+                                <img src="./images/png/icon_star.png" alt="">
+                            </div>
+                        </div>
+                        <div class="items item02">
+                            <div class="txtarea">
+                                <span class="txt">동네생활</span>
+                                <p class="head">이웃만 아는<br>동네 정보와 이야기</p>
+                                <p class="sub">우리동네의 다양한 정보와 이야기를<br>공감과 댓글로 나누어요.</p>
+                                <div class="life_contents">
+                                    <div class="meet">
+                                        <img src="./images/png/icon_meet.png" alt="">
+                                        <span class="name">동네모임</span>
+                                        <span class="explain">근처 이웃들과 동네 이야기를 해보세요.</span>
+                                    </div>
+                                    <div class="qna">
+                                        <img src="./images/png/icon_qna.png" alt="">
+                                        <span class="name">동네질문</span>
+                                        <span class="explain">궁금한 게 있을 땐 이웃에 물어보세요.</span>
+                                    </div>
+                                    <div class="loss">
+                                        <img src="./images/png/icon_loss.png" alt="">
+                                        <span class="name">동네모임</span>
+                                        <span class="explain">무언가를 잃어버렸다면 글을 올려보세요.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgarea">
+                                <img src="./images/banner_101.png" alt="">
+                                <img src="./images/banner_123.png" alt="">
+                                <img src="./images/banner_144.png" alt="">
+                                <img src="./images/banner_133.png" alt="">
+                                <img src="./images/png/icon_love.png" alt="">
+                            </div>
+                        </div>
+                        <div class="items item03">
+                            <div class="txtarea">
+                                <span class="txt">알바</span>
+                                <p class="head">걸어서 10분!<br>동네 알바 구하기</p>
+                                <p class="sub">당근하듯 쉽고, 편하게<br>당근 알바로 동네 알바를 구할 수 있어요.</p>
+                                <div class="view">
+                                    <a href="#"><span>내 근처 알바 보기</span></a>
+                                </div>
+                            </div>
+                            <div class="imgarea">
+                                <img src="./images/banner_300.png" alt="">
+                                <img src="./images/banner_301.png" alt="">
+                                <img src="./images/banner_302.png" alt="">
+                                <img src="./images/jobs_img_002.png" alt="">
+                                <img src="./images/png/icon_33.png" alt="">
+                            </div>
+                        </div>
+                        <div class="items item04">
+                            <div class="txtarea">
+                                <span class="txt">동네가게</span>
+                                <p class="head">내 근처에서 찾는<br>동네 가게</p>
+                                <p class="sub">이웃들의 추천 후기를 확인하고<br>동네 곳곳의 가게들을 찾을 수 있어요.</p>
+                                <div class="view">
+                                    <a href="#"><span>당근 동네가게 보기</span></a>
+                                </div>
+                            </div>
+                            <div class="imgarea">
+                                <img src="./images/banner_522.png" alt="">
+                                <img src="./images/banner_510.png" alt="">
+                                <img src="./images/banner_500.jpg" alt="">
+                                <img src="./images/png/icon_09.png" alt="">
+                                <img src="./images/png/icon_33.png" alt="">
+                                <img src="./images/png/icon_03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="items item05">
+                            <div class="txtarea">
+                                <span class="txt">당근페이</span>
+                                <p class="head">당근하는 새로운 방법<br>당근페이</p>
+                                <p class="sub">이제는 현금 챙길 필요가 없어요.<br>중고거래중인 이웃과 간편하고 빠르게 송금해요.</p>
+                                <div class="view">
+                                    <a href="#"><span>당근페이 시작하기</span></a>
+                                </div>
+                            </div>
+                            <div class="imgarea">
+                                <img src="./images/banner_400.png" alt="">
+                                <img src="./images/banner_401.png" alt="">
+                                <img src="./images/banner_403.png" alt="">
+                                <img src="./images/pay_img_002.png" alt="">
+                                <img src="./images/pay_img_001.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
+            <section class="video">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/x5mDy5ZcJvs?autoplay=1&mute=1&loop=1&controls=1" title="당신 근처의 지역 생활 커뮤니티, 당근" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loof></iframe>
+            </section>
+            <footer>
+                <div class="f_top">
+                    <div class="left">
+                        <ul class="menu">
+                            <li><a href="#">중고거래</a></li>
+                            <li><a href="#">동네가게</a></li>
+                            <li><a href="#">당근알바</a></li>
+                            <li><a href="#">부동산 직거래</a></li>
+                            <li><a href="#">중고차 직거래</a></li>
+                        </ul>
+                        <ul class="etc">
+                            <li><a href="#">자주 묻는 질문</a></li>
+                            <li><a href="#">당근 비즈니스</a></li>
+                            <li><a href="#">회사 소개</a></li>
+                            <li><a href="#">인재 채용</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <div class="download">
+                            <span>당근 앱 다운로드</span>
+                            <div class="app">
+                                <a href="#"><img src="./images/png/google-play.png" alt="">Google Play</a>
+                                <a href="#"><img src="./images/png/app-store.png" alt="">App Store</a>
+                            </div>
+                        </div>
+                        <div class="qr">
+                            <span>당근채팅 로그인</span>
+                            <img src="./images/png/qr.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <span id="line"></span>
+                <div class="f_btm">
+                    <div class="left">
+                        <address>
+                            <p><em>대표</em> 김용현, 황도연 <em>사업자번호</em> 375-87-00088</p>
+                            <p><em>직업정보제공사업 신고번호</em> J1200020200016</p>
+                            <p><em>주소</em> 서울특별시 구로구 디지털로 30길 28, 609호 (당근서비스)</p>
+                            <p><em>전화</em> 1544-9796 <em>고객문의</em> cs@daangnservice.com</p>
+                        </address>
+                        <div class="contact">
+                            <a href="#">제휴 문의</a>
+                            <a href="#">광고 문의</a>
+                            <a href="#">PR 문의</a>
+                            <a href="#">IR 문의</a>
+                        </div>
+                        <div class="term">
+                            <a href="#">이용약관</a>
+                            <a href="#">개인정보처리방침</a>
+                            <a href="#">위치기반서비스 이용약관</a>
+                            <a href="#">이용자보호 비전과 계획</a>
+                            <a href="#">청소년보호정책</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <!-- <a href="#"><img src="./images/png/blog.png" alt=""></a> -->
+                    </div>
+                </div>
+            </footer>
+            <a href="#" id="btn_top"><img src="./images/png/frame54.png" alt=""></a>
         </div>
-    </header>
-    <main>
-        <section class="visual">
-            <div class="visual_wrap">
-                <div class="left">
-                    <div class="v_top">
-                        <h2><img src="./images/main_001.png" alt=""></h2>
-                        <img src="./images/main_star.png" alt="">
-                    </div>
-                    <p class="title">동네라서 가능한 모든 것<br>당근에서 가까운 이웃과 함께해보세요.</p>
-                    <p class="contents">지금 당근 앱을 업데이트하고 새로워진 당근을 만나보세요</p>
-                    <div class="app">
-                        <a href="#"><i class="fa-brands fa-google-play"></i>Google Play</a>
-                        <a href="#"><i class="fa-brands fa-app-store-ios"></i>App Store</a>
-                    </div>
-                </div>
-                <div class="right">
-                    <img src="./images/main_banner_01.png" alt="">
-                    <img src="./images/daangn_001.png" alt="">
-                </div>
-            </div>
-        </section>
-        <aside>
-            <span class="bar active"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </aside>
-        <section class="trade">
-            <div class="trade_wrap">
-                <div class="left">
-                    <span class="txt">중고거래</span>
-                    <p class="head">믿을만한<br>이웃 간 중고거래</p>
-                    <p class="sub">동네 주민들과 가깝고 따뜻한 거래를<br>지금 경험해 보세요.</p>
-                    <div class="view">
-                        <a href="#"><span>인기매물보기</span></a>
-                        <a href="#"><span>믿을 수 있는 중고거래</span></a>
-                    </div>
-                    <img src="./images/png/left_001.png" alt="">
-                </div>
-                <div class="right">
-                    <img src="./images/banner_001.png" alt="" class="banner001">
-                    <img src="./images/banner_002.jpg" alt="" class="banner002">
-                    <img src="./images/banner_003.jpg" alt="" class="banner003">
-                </div>
-            </div>
-        </section>
-        <section class="life">
-            <div class="life_wrap">
-                <div class="left">
-                    <span class="txt">동네생활</span>
-                    <p class="head">이웃만 아는<br>동네 정보와 이야기</p>
-                    <p class="sub">우리동네의 다양한 정보와 이야기를<br>공감과 댓글로 나누어요.</p>
-                    <div class="life_contents">
-                        <div class="meet">
-                            <img src="./images/png/icon_meet.png" alt="">
-                            <span class="name">동네모임</span>
-                            <span class="explain">근처 이웃들과 동네 이야기를 해보세요.</span>
-                        </div>
-                        <div class="qna">
-                            <img src="./images/png/icon_qna.png" alt="">
-                            <span class="name">동네질문</span>
-                            <span class="explain">궁금한 게 있을 땐 이웃에 물어보세요.</span>
-                        </div>
-                        <div class="loss">
-                            <img src="./images/png/icon_loss.png" alt="">
-                            <span class="name">동네모임</span>
-                            <span class="explain">무언가를 잃어버렸다면 글을 올려보세요.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="right"></div>
-            </div>
-        </section>
-        <div class="play_bg"></div>
-    </main>
+    </div>
 </body>
 </html>
